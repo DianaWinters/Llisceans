@@ -6,8 +6,8 @@
     <li>1.0</li>
 	<li>1.1</li>
 	</supportedVersions>
-	<packageId>dianawinters.Lliscean</packageId>
-  <url>https://github.com/DianaWinters/Lliscean</url>
+	<packageId>dianawinters.Llisceans</packageId>
+  <url>https://github.com/DianaWinters/Llisceans</url>
 <description>Now for 1.1!</description>
 <modDependencies>
    <li>
