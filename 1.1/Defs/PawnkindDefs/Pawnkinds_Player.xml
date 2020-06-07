@@ -13,7 +13,7 @@
     <PawnKindDef ParentName="BaseLlisceanPawnKind">
         <defName>Lliscean_PlayerColonist</defName>
         <label>colonist</label>
-        <defaultFactionType>LlisceanPlayerColony</defaultFactionType>
+        <defaultFactionType>LlisceanPlayerTribe</defaultFactionType>
         <apparelTags>
             <li>Neolithic</li>
         </apparelTags>

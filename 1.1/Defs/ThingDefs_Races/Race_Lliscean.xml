@@ -7,7 +7,7 @@
     <description>Created due to a fad on a distant glitterworld, the Lliscean is a race of half-human half-deer people. Friendly and nature loving, those that get stranded on rimworlds generally settle into idyllic (at least for a time) tribal societies. The race is mostly female, with the few males appearing feminine as well.</description>
     <alienRace>
       <generalSettings>
-        <maleGenderProbability>33</maleGenderProbability>
+        <maleGenderProbability>0.1</maleGenderProbability>
         <immuneToAge>false</immuneToAge>
         <forcedRaceTraitEntries>
           <li>
@@ -17,8 +17,17 @@
           </li>
 		  <li>
 			<defName>Nudist</defName>
-			<chance>25></chance>
+			<chance>25</chance>
 		  </li>
+		  <li>
+			<defName>Gay<defName>
+			<chance>25</chance>
+		  <li>		  
+		  <li>
+			<defName>Bisexual<defName>
+			<chance>25</chance>
+		  <li>
+		  
         </forcedRaceTraitEntries>
         <disallowedTraits>
           <li>Ugly</li>
@@ -48,7 +57,7 @@
             <options>
               <!-- == Pink == -->
               <li>
-                <weight>10</weight>
+                <weight>5</weight>
                 <only>RGBA(1,0.6,0.8,1)</only>
               </li>
               <!-- == Blue == -->
@@ -78,60 +87,95 @@
               </li>
             </options>
           </alienskinsecondcolorgen>
-          <customDrawSize>(0.9, 0.9)</customDrawSize>
-          <customHeadDrawSize>(0.9, 0.9)</customHeadDrawSize>
-          <customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
-          <customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
-          <headOffset>(0.0, 0.0)</headOffset>
+          <customDrawSize>(0.75, 0.75)</customDrawSize>
+          <customHeadDrawSize>(0.75, 0.75)</customHeadDrawSize>
+          <customPortraitDrawSize>(0.75, 0.75)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(0.75, 0.75)</customPortraitHeadDrawSize>
+          <headOffset>(0.0, -0.1)</headOffset>
 
           <bodyAddons>
             <li>
-              <drawSize>0.9</drawSize>
+              <drawSize>1</drawSize>
               <path>Things/Pawn/Lliscean/Body/LlisceanBody</path>
               <bodyPart>Waist</bodyPart>
-              <inFrontOfBody>false</inFrontOfBody>
-              <useSkinColor>true</useSkinColor>
+              <inFrontOfBody>true</inFrontOfBody>
+              <useSkinColor>false</useSkinColor>
               <layerOffset>-0.270</layerOffset>
               <offsets>
                 <south>
                   <bodyTypes>
-                    <Female>(0,0)</Female>
+                    <Female>(-0.4115,0)</Female>
+					<Thin>(-0.4115,0)</Thin>
                   </bodyTypes>
                 </south>
                 <north>
                   <bodyTypes>
-                    <Female>(0,0.321)</Female>
+                    <Female>(-0.013,0.2245)</Female>
+					<Thin>(-0.013,0.2245)</Thin>
                   </bodyTypes>
                 </north>
                 <east>
                   <bodyTypes>
-                    <Female>(-0.366,0.045)</Female>
+                    <Female>(-0.0959,-0.0449)</Female>
+					<Thin>(-0.0959,-0.0449)</Thin>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <drawnInBed>false</drawnInBed>
+            </li>
+			<li>
+              <drawSize>1</drawSize>
+              <path>Things/Pawn/Lliscean/Body/LlisceanBody2</path>
+              <bodyPart>Waist</bodyPart>
+              <inFrontOfBody>false</inFrontOfBody>
+              <useSkinColor>false</useSkinColor>
+              <layerOffset>-0.3</layerOffset>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <Female>(-0.4115,0)</Female>
+					<Thin>(-0.4115,0)</Thin>
+                  </bodyTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <Female>(-0.013,0.2245)</Female>
+					<Thin>(-0.013,0.2245)</Thin>
+                  </bodyTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Female>(-0.0509,-0.1993)</Female>
+					<Thin>(-0.0509,-0.1993)</Thin>
                   </bodyTypes>
                 </east>
               </offsets>
               <drawnInBed>false</drawnInBed>
             </li>
 			<li> <!-- Need to do all the offsets for this; don't expect them to be remotely close yet -->
-              <drawSize>0.9</drawSize>
+              <drawSize>0.75</drawSize>
               <path>Things/Pawn/Lliscean/Body/LlTail</path>
               <bodyPart>Tail</bodyPart>
               <inFrontOfBody>false</inFrontOfBody>
-              <useSkinColor>true</useSkinColor>
-              <layerOffset>-0.270</layerOffset>
+              <useSkinColor>false</useSkinColor>
+              <layerOffset>-0.3</layerOffset>
               <offsets>
                 <south>
                   <bodyTypes>
                     <Female>(0,0)</Female>
+					<Thin>(0,0)</Thin>
                   </bodyTypes>
                 </south>
                 <north>
                   <bodyTypes>
-                    <Female>(0,0.321)</Female>
+                    <Female>(0,-0.5407)</Female>
+					<Thin>(0,-0.5407)</Thin>
                   </bodyTypes>
                 </north>
                 <east>
                   <bodyTypes>
-                    <Female>(-0.366,0.045)</Female>
+                    <Female>(0.93,-0.46)</Female>
+					<Thin>(0.93,-0.46)</Thin>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -145,8 +189,6 @@
 
       <graphicPaths>
         <li>
-          <head>Things/Pawn/Arachne/Head/</head>
-          <body>Things/Pawn/Arachne/Body/</body>
           <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
         </li>
       </graphicPaths>
@@ -257,7 +299,6 @@
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>80</lifeExpectancy>
-      <leatherDef>Leather_Lliscean</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
       <hasGenders>true</hasGenders>
       <body>Lliscean_body</body>

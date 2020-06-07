@@ -9,9 +9,9 @@
   </FactionDef>
 
   <FactionDef ParentName="LlisceanFactionBase">
-    <defName>LlisceanPlayerColony</defName>
-    <label>Lliscean Colony</label>
-    <description>Lliscean settlers searching for a new home.</description>
+    <defName>LlisceanPlayerTribe</defName>
+    <label>Lliscean Tribe</label>
+    <description>Lliscean tribals searching for a new home.</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>Lliscean_PlayerColonist</basicMemberKind>
     <pawnSingular>colonist</pawnSingular>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <FactionDef Name="Arachne_FriendlyFactionBase" Abstract="True">
+  <FactionDef Name="Lliscean_FriendlyFactionBase" Abstract="True">
     <goodwillDailyGain>0.20</goodwillDailyGain>
     <goodwillDailyFall>0.20</goodwillDailyFall>
   </FactionDef>
 
-  <FactionDef ParentName="Arachne_FriendlyFactionBase" Name="Arachne_ArachneColonyFactionBase" Abstract="True">
+  <FactionDef ParentName="Lliscean_FriendlyFactionBase" Name="Lliscean_LlisceanTribeFactionBase" Abstract="True">
     <pawnSingular>settler</pawnSingular>
     <pawnsPlural>settlers</pawnsPlural>
     <categoryTag>Tribal</categoryTag>
@@ -31,79 +31,126 @@
     <geneticVariance>0.8</geneticVariance>
     <hairTags>
       <li>Rural</li>
+	  <li>Tribal</li>
     </hairTags>
     <caravanTraderKinds>
-      <li>Caravan_Tribal_BulkGoods</li>
-      <li>Caravan_Tribal_CombatSupplier</li>
-      <li>Caravan_Tribal_Exotic</li>
-      <li>Caravan_Tribal_PirateMerchant</li>
+      <li>Caravan_Neolithic_BulkGoods</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_ShamanMerchant</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
-      <li>Visitor_Tribal_Standard</li>
+      <li>Visitor_Neolithic_Standard</li>
     </visitorTraderKinds>
     <baseTraderKinds>
-      <li>Base_Tribal_Standard</li>
+      <li>Base_Neolithic_Standard</li>
     </baseTraderKinds>
     <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
     <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,35)</li>
         <li>(70, 50)</li>
-        <li>(700, 100)</li>
+        <li>(800, 100)</li>
         <li>(1300, 150)</li>
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-    <pawnGroupMakers>
+     <pawnGroupMakers>
       <li>
-        <!-- Normal fights, standard mix -->
+        <!-- Normal fights, ranged with melee mix-ins -->
         <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
         <options>
-		
+          <Lliscean_Tribal_Penitent>5</Lliscean_Tribal_Penitent>
+          <Lliscean_Tribal_Warrior>5</Lliscean_Tribal_Warrior>
+          <Lliscean_Tribal_Archer>10</Lliscean_Tribal_Archer>
+          <Lliscean_Tribal_Hunter>10</Lliscean_Tribal_Hunter>
+          <Lliscean_Tribal_HeavyArcher>10</Lliscean_Tribal_HeavyArcher>
+          <Lliscean_Tribal_Berserker>5</Lliscean_Tribal_Berserker>
+          <Lliscean_Tribal_ChiefRanged>3</Lliscean_Tribal_ChiefRanged>
+          <Lliscean_Tribal_ChiefMelee>1.5</Lliscean_Tribal_ChiefMelee>
         </options>
       </li>
       <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Lliscean_Tribal_Archer>10</Lliscean_Tribal_Archer>
+          <Lliscean_Tribal_Hunter>10</Lliscean_Tribal_Hunter>
+          <Lliscean_Tribal_HeavyArcher>10</Lliscean_Tribal_HeavyArcher>
+          <Lliscean_Tribal_ChiefRanged>5</Lliscean_Tribal_ChiefRanged>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Lliscean_Tribal_Penitent>10</Lliscean_Tribal_Penitent>
+          <Lliscean_Tribal_Warrior>10</Lliscean_Tribal_Warrior>
+          <Lliscean_Tribal_Berserker>10</Lliscean_Tribal_Berserker>
+          <Lliscean_Tribal_ChiefMelee>5</Lliscean_Tribal_ChiefMelee>
+      </options>
+      </li>
+      <li>
+        <!-- Peaceful -->
         <kindDef>Peaceful</kindDef>
         <options>
-
+          <Lliscean_Tribal_Warrior>20</Lliscean_Tribal_Warrior>
+          <Lliscean_Tribal_Archer>10</Lliscean_Tribal_Archer>
+          <Lliscean_Tribal_Hunter>10</Lliscean_Tribal_Hunter>
+          <Lliscean_Tribal_HeavyArcher>10</Lliscean_Tribal_HeavyArcher>
+          <Lliscean_Tribal_Berserker>5</Lliscean_Tribal_Berserker>
+          <Lliscean_Tribal_ChiefRanged>3</Lliscean_Tribal_ChiefRanged>
+          <Lliscean_Tribal_ChiefMelee>1.5</Lliscean_Tribal_ChiefMelee>
         </options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <Arachne_Trader>1</Arachne_Trader>
+          <Tribal_Trader>1</Tribal_Trader>
         </traders>
         <carriers>
           <Muffalo>6</Muffalo>
           <Dromedary>5</Dromedary>
-          <Alpaca>2</Alpaca>
-          <Elephant>1</Elephant>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
         </carriers>
         <guards>
-
+          <Lliscean_Tribal_Warrior>7</Lliscean_Tribal_Warrior>
+          <Lliscean_Tribal_Archer>10</Lliscean_Tribal_Archer>
+          <Lliscean_Tribal_Hunter>10</Lliscean_Tribal_Hunter>
+          <Lliscean_Tribal_HeavyArcher>10</Lliscean_Tribal_HeavyArcher>
+          <Lliscean_Tribal_Berserker>7</Lliscean_Tribal_Berserker>
         </guards>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-
+          <Lliscean_Tribal_Warrior>7</Lliscean_Tribal_Warrior>
+          <Lliscean_Tribal_Archer>10</Lliscean_Tribal_Archer>
+          <Lliscean_Tribal_Hunter>10</Lliscean_Tribal_Hunter>
+          <Lliscean_Tribal_HeavyArcher>10</Lliscean_Tribal_HeavyArcher>
+          <Lliscean_Tribal_Berserker>7</Lliscean_Tribal_Berserker>
+          <Lliscean_Tribal_ChiefRanged>10</Lliscean_Tribal_ChiefRanged>
         </options>
       </li>
     </pawnGroupMakers>
   </FactionDef>
 
-  <FactionDef ParentName="Lliscean_LlisceanColonyFactionBase">
-    <defName>ArachneColony</defName>
-    <label>Arachne Colony</label>
-    <description>A colony of Arachne Settlers</description>
-    <fixedName>Arachne Colony</fixedName>
+  <FactionDef ParentName="Lliscean_LlisceanTribeFactionBase">
+    <defName>LlisceanTribe</defName>
+    <label>Lliscean Tribe</label>
+    <description>A friendly band of lliscean tribals.</description>
+    <fixedName>Lliscean Tribe</fixedName>
     <colorSpectrum>
       <li>(200, 225, 200)</li>
     </colorSpectrum>
     <startingGoodwill>25</startingGoodwill>
     <naturalColonyGoodwill>0~50</naturalColonyGoodwill>
-    <factionIconPath>World/FriendlyBase</factionIconPath>
-    <settlementTexturePath>World/FriendlyBase</settlementTexturePath>
+    <factionIconPath>World/WorldObjects/Expanding/Village</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
   </FactionDef>
 
 </Defs>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
  <BodyDef>
-    <defName>Human</defName>
-    <label>human</label>
+    <defName>Lliscean_body</defName>
+    <label>lliscean</label>
     <corePart>
       <def>Torso</def>
       <height>Middle</height>
@@ -413,6 +413,7 @@
             <li>Waist</li>
           </groups>
         </li>
+		<li>
 		<def>Body</def>
         <height>Middle</height>
         <depth>Outside</depth>
@@ -524,7 +525,7 @@
           </parts>
         </li>
         </parts>
-        </li>
+		</li>
       </parts>
     </corePart>
   </BodyDef>
