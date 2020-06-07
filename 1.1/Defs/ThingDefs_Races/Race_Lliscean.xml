@@ -112,14 +112,14 @@
             <li>
               <drawSize>1</drawSize>
               <path>Things/Pawn/Lliscean/Body/LlisceanBody</path>
-              <bodyPart>Waist</bodyPart>
+              <bodyPart>Body</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
-              <useSkinColor>false</useSkinColor>
-              <layerOffset>-0.3</layerOffset>
+              <useSkinColor>true</useSkinColor>
+              <layerOffset>-0.2893</layerOffset>
               <offsets>
                 <south>
                   <bodyTypes>
-                    <Female>(-0.4115,0)</Female>
+                    <Female>(-0.4115,0.0900)</Female>
                   </bodyTypes>
                 </south>
                 <north>
@@ -138,14 +138,14 @@
 			<li>
               <drawSize>1</drawSize>
               <path>Things/Pawn/Lliscean/Body/LlisceanBody2</path>
-              <bodyPart>Waist</bodyPart>
-              <inFrontOfBody>false</inFrontOfBody>
-              <useSkinColor>false</useSkinColor>
-              <layerOffset>-0.3</layerOffset>
+              <bodyPart>Body</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <useSkinColor>true</useSkinColor>
+              <layerOffset>-0.31</layerOffset>
               <offsets>
                 <south>
                   <bodyTypes>
-                    <Female>(-0.4115,0)</Female>
+                    <Female>(-0.4115,0.0900)</Female>
                   </bodyTypes>
                 </south>
                 <north>
@@ -155,7 +155,7 @@
                 </north>
                 <east>
                   <bodyTypes>
-                    <Female>(-0.0509,-0.1993)</Female>
+                    <Female>(-0.0959,-0.0449)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -166,7 +166,7 @@
               <path>Things/Pawn/Lliscean/Body/LlTail</path>
               <bodyPart>Tail</bodyPart>
               <inFrontOfBody>false</inFrontOfBody>
-              <useSkinColor>false</useSkinColor>
+              <useSkinColor>true</useSkinColor>
               <layerOffset>-0.3</layerOffset>
               <offsets>
                 <south>
@@ -181,7 +181,7 @@
                 </north>
                 <east>
                   <bodyTypes>
-                    <Female>(0.93,-0.46)</Female>
+                    <Female>(0.9107,-0.3313)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
