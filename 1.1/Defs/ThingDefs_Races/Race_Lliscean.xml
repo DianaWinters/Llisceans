@@ -4,7 +4,7 @@
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>Lliscean</defName>
     <label>lliscean</label>
-    <description>Created due to a fad on a distant glitterworld, the Lliscean is a race of half-human half-deer people. Friendly and nature loving, those that get stranded on rimworlds generally settle into idyllic (at least for a time) tribal societies. The race is mostly female, with the few males appearing feminine as well. They typically aren't too picky about the gender of their partner, caring more about the content of their character.</description>
+    <description>Created due to a fad popular with the female population on a distant glitterworld, the Lliscean is a race of half-human half-deer people. Friendly and nature loving, those that get stranded on rimworlds generally settle into idyllic (at least for a time) tribal societies. The race is almost entirely female, with few very feminine males. They typically aren't too picky about the gender of their partner, caring more about the content of their character.</description>
     <alienRace>
       <generalSettings>
         <maleGenderProbability>0.1</maleGenderProbability>
@@ -51,37 +51,54 @@
             <maxMelanin>1</maxMelanin>
           </alienskincolorgen>
 
-          <alienskinsecondcolorgen Class="ColorGenerator_Options"> <!-- Borrowed from Arachne, change these at some point... keep to mostly "deer" colors, but maybe add some pastel colors as well to allude to their glitterworld origins -->
+          <alienskinsecondcolorgen Class="ColorGenerator_Options">
             <options>
+              <!-- == Brown == -->
+              <li>
+                <weight>50</weight>
+                <only>RGBA(139,99,55,255)</only>
+              </li>
+              <li>
+                <weight>50</weight>
+                <only>RGBA(125,78,41,255)</only>
+              </li>
+              <li>
+                <weight>60</weight>
+                <only>RGBA(75,55,29,255)</only>
+              </li>
+              <li>
+                <weight>50</weight>
+                <only>RGBA(61,16,5,255)</only>
+              </li>
+              <li>
+                <weight>50</weight>
+                <only>RGBA(46,11,22,255)</only>
+              </li>
+              <!-- == Red == -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.3,0.6,1,255)</only>
+              </li>
+			  <li>
+                <weight>10</weight>
+                <only>RGBA(142,43,17,1,255)</only>
+              </li>
+			  <li>
+                <weight>10</weight>
+                <only>RGBA(117,0,13,1,255)</only>
+              </li>
+			  <li>
+                <weight>10</weight>
+                <only>RGBA(77,19,21,255)</only>
+              </li>
               <!-- == Pink == -->
               <li>
                 <weight>5</weight>
-                <only>RGBA(1,0.6,0.8,1)</only>
+                <only>RGBA(242,90,102,1,255)</only>
               </li>
-              <!-- == Blue == -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.3,0.6,1,1)</only>
-              </li>
-              <!-- == Purple == -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.5,0.5,1,1)</only>
-              </li>
-              <!-- == Orange == -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(1,0.8,0.3,1)</only>
-              </li>
-              <!-- == Black == -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.5,0.5,0.5,1)</only>
-              </li>
-              <!-- == Green == -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.5,0.8,0.5,1)</only>
+			  <li>
+                <weight>5</weight>
+                <only>RGBA(192,48,109,1,255)</only>
               </li>
             </options>
           </alienskinsecondcolorgen>
@@ -103,19 +120,16 @@
                 <south>
                   <bodyTypes>
                     <Female>(-0.4115,0)</Female>
-					<Thin>(-0.4115,0)</Thin>
                   </bodyTypes>
                 </south>
                 <north>
                   <bodyTypes>
                     <Female>(-0.013,0.2245)</Female>
-					<Thin>(-0.013,0.2245)</Thin>
                   </bodyTypes>
                 </north>
                 <east>
                   <bodyTypes>
                     <Female>(-0.0959,-0.0449)</Female>
-					<Thin>(-0.0959,-0.0449)</Thin>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -132,25 +146,22 @@
                 <south>
                   <bodyTypes>
                     <Female>(-0.4115,0)</Female>
-					<Thin>(-0.4115,0)</Thin>
                   </bodyTypes>
                 </south>
                 <north>
                   <bodyTypes>
                     <Female>(-0.013,0.2245)</Female>
-					<Thin>(-0.013,0.2245)</Thin>
                   </bodyTypes>
                 </north>
                 <east>
                   <bodyTypes>
                     <Female>(-0.0509,-0.1993)</Female>
-					<Thin>(-0.0509,-0.1993)</Thin>
                   </bodyTypes>
                 </east>
               </offsets>
               <drawnInBed>false</drawnInBed>
             </li>
-			<li> <!-- Need to do all the offsets for this; don't expect them to be remotely close yet -->
+			<li>
               <drawSize>0.75</drawSize>
               <path>Things/Pawn/Lliscean/Body/LlTail</path>
               <bodyPart>Tail</bodyPart>
@@ -161,19 +172,16 @@
                 <south>
                   <bodyTypes>
                     <Female>(0,0)</Female>
-					<Thin>(0,0)</Thin>
                   </bodyTypes>
                 </south>
                 <north>
                   <bodyTypes>
                     <Female>(0,-0.5407)</Female>
-					<Thin>(0,-0.5407)</Thin>
                   </bodyTypes>
                 </north>
                 <east>
                   <bodyTypes>
                     <Female>(0.93,-0.46)</Female>
-					<Thin>(0.93,-0.46)</Thin>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -187,7 +195,7 @@
 
       <graphicPaths>
         <li>
-          <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+          <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Female</skeleton>
         </li>
       </graphicPaths>
 
