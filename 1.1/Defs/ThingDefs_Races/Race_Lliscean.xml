@@ -4,7 +4,7 @@
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>Lliscean</defName>
     <label>lliscean</label>
-    <description>Created due to a fad on a distant glitterworld, the Lliscean is a race of half-human half-deer people. Friendly and nature loving, those that get stranded on rimworlds generally settle into idyllic (at least for a time) tribal societies. The race is mostly female, with the few males appearing feminine as well.</description>
+    <description>Created due to a fad on a distant glitterworld, the Lliscean is a race of half-human half-deer people. Friendly and nature loving, those that get stranded on rimworlds generally settle into idyllic (at least for a time) tribal societies. The race is mostly female, with the few males appearing feminine as well. They typically aren't too picky about the gender of their partner, caring more about the content of their character.</description>
     <alienRace>
       <generalSettings>
         <maleGenderProbability>0.1</maleGenderProbability>
@@ -21,13 +21,12 @@
 		  </li>
 		  <li>
 			<defName>Gay<defName>
-			<chance>25</chance>
+			<chance>20</chance>
 		  <li>		  
 		  <li>
 			<defName>Bisexual<defName>
-			<chance>25</chance>
+			<chance>60</chance>
 		  <li>
-		  
         </forcedRaceTraitEntries>
         <disallowedTraits>
           <li>Ugly</li>
@@ -46,7 +45,6 @@
           </aliencrowntypes>
           <alienbodytypes>
             <li>Female</li>
-			<li>Thin</li>
           </alienbodytypes>
           <alienskincolorgen Class="AlienRace.ColorGenerator_SkinColorMelanin">
             <minMelanin>0</minMelanin>
