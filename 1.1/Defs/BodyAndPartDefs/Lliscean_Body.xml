@@ -443,28 +443,24 @@
 						</li>
 						<li>
 							<def>Lung</def>
-							<customLabel>left lung</customLabel>
 							<coverage>0.03</coverage><!-- 3 % -->
 							<depth>Inside</depth>
 							<customLabel>left cervine lung</customLabel>
 						</li>
 						<li>
 							<def>Lung</def>
-							<customLabel>right lung</customLabel>
 							<coverage>0.03</coverage><!-- 3 % -->
 							<depth>Inside</depth>
 							<customLabel>right cervine lung</customLabel>
 						</li>
 						<li>
 							<def>Kidney</def>
-							<customLabel>left kidney</customLabel>
 							<coverage>0.03</coverage><!-- 3 % -->
 							<depth>Inside</depth>
 							<customLabel>left cervine kidney</customLabel>
 						</li>
 						<li>
 							<def>Kidney</def>
-							<customLabel>right kidney</customLabel>
 							<coverage>0.03</coverage><!-- 3 % -->
 							<depth>Inside</depth>
 							<customLabel>right cervine kidney</customLabel>

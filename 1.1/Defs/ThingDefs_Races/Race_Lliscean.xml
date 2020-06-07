@@ -110,13 +110,43 @@
           <headOffset>(0.0, -0.1)</headOffset>
 
           <bodyAddons>
+		    <li>
+              <drawSize>1</drawSize>
+              <path>Things/Pawn/Lliscean/Body/Patterns/LlisceanBodyPattern</path>
+              <bodyPart>Body</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+			  <colorChannel>base</colorChannel>
+              <layerOffset>-0.289</layerOffset>
+			  <layerInvert>false</layerInvert>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <Female>(-0.4115,0.0900)</Female>
+					<Thin>(-0.4115,0.0900)</Thin>
+                  </bodyTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <Female>(-0.013,0.2245)</Female>
+					<Thin>(-0.013,0.2245)</Thin>
+                  </bodyTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Female>(-0.0959,-0.0449)</Female>
+					<Thin>(-0.0959,-0.0449)</Thin>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <drawnInBed>false</drawnInBed>
+            </li>
             <li>
               <drawSize>1</drawSize>
               <path>Things/Pawn/Lliscean/Body/LlisceanBody</path>
               <bodyPart>Body</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <useSkinColor>true</useSkinColor>
-              <layerOffset>-0.2893</layerOffset>
+              <layerOffset>-0.291</layerOffset>
               <offsets>
                 <south>
                   <bodyTypes>
@@ -197,6 +227,136 @@
               </offsets>
               <drawnInBed>false</drawnInBed>
             </li>
+			<li>
+						<drawSize>.65</drawSize>
+							<path>Things/Pawn/Lliscean/Body/Ears/EarLeft</path>
+							<bodyPart>left ear</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<useSkinColor>true</useSkinColor>
+							<layerInvert>false</layerInvert>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Male>(-0.475,.62)</Male>
+										<Female>(-0.475,.62)</Female>
+										<Thin>(-0.475,.62)</Thin>
+										<Hulk>(-0.475,.62)</Hulk>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(-0.45,.62)</Male>
+										<Female>(-0.45,.62)</Female>
+										<Thin>(-0.45,.62)</Thin>
+										<Hulk>(-0.45,.62)</Hulk>
+									</portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Male>(0.05,.93)</Male>
+										<Female>(0.05,.93)</Female>
+										<Thin>(0.05,.93)</Thin>
+										<Hulk>(0.05,.93)</Hulk>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(-0.04,.84)</Male>
+										<Female>(-0.04,.84)</Female>
+										<Thin>(-0.04,.84)</Thin>
+										<Hulk>(-0.04,.84)</Hulk>
+									</portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Male>(-0.44,.7)</Male>
+										<Female>(-0.44,.7)</Female>
+										<Thin>(-0.44,.7)</Thin>
+										<Hulk>(-0.44,.7)</Hulk>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(-0.44,.53)</Male>
+										<Female>(-0.44,.53)</Female>
+										<Thin>(-0.44,.53)</Thin>
+										<Hulk>(-0.44,.53)</Hulk>
+									</portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</east>
+							</offsets>
+							
+                <hiddenUnderApparelFor>
+                      <li>FullHead</li>
+                </hiddenUnderApparelFor>
+						</li>
+						<li>
+						<drawSize>.65</drawSize>
+							<path>Things/Pawn/Lliscean/Body/Ears/EarRight</path>
+							<bodyPart>right ear</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<useSkinColor>true</useSkinColor>
+							<layerInvert>false</layerInvert>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Male>(-0.375,.62)</Male>
+										<Female>(-0.375,.62)</Female>
+										<Thin>(-0.375,.62)</Thin>
+										<Hulk>(-0.375,.62)</Hulk>
+									</bodyTypes>
+										<portraitBodyTypes>
+										<Male>(-0.4,.62)</Male>
+										<Female>(-0.4,.62)</Female>
+										<Thin>(-0.4,.62)</Thin>
+										<Hulk>(-0.4,.62)</Hulk>
+									</portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Male>(-0.038,.93)</Male>
+										<Female>(-0.038,.93)</Female>
+										<Thin>(-0.038,.93)</Thin>
+										<Hulk>(-0.038,.93)</Hulk>
+									</bodyTypes>
+										<portraitBodyTypes>
+										<Male>(-0.01,.95)</Male>
+										<Female>(-0.01,.95)</Female>
+										<Thin>(-0.01,.95)</Thin>
+										<Hulk>(-0.01,.95)</Hulk>
+									</portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Male>(-0.44,.7)</Male>
+										<Female>(-0.44,.7)</Female>
+										<Thin>(-0.44,.7)</Thin>
+										<Hulk>(-0.44,.7)</Hulk>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(-0.44,.53)</Male>
+										<Female>(-0.44,.53)</Female>
+										<Thin>(-0.44,.53)</Thin>
+										<Hulk>(-0.44,.53)</Hulk>
+									</portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</east>
+							</offsets>
+							
+                <hiddenUnderApparelFor>
+                      <li>FullHead</li>
+                </hiddenUnderApparelFor>
+						</li>
           </bodyAddons>
 
         </alienPartGenerator>

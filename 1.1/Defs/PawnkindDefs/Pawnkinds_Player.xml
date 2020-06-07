@@ -12,13 +12,13 @@
 
     <PawnKindDef ParentName="BaseLlisceanPawnKind">
         <defName>Lliscean_PlayerColonist</defName>
-        <label>colonist</label>
+        <label>member</label>
         <defaultFactionType>LlisceanPlayerTribe</defaultFactionType>
         <apparelTags>
             <li>Neolithic</li>
         </apparelTags>
         <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
-        <apparelMoney>150~500</apparelMoney>
+        <apparelMoney>200~200</apparelMoney>
         <techHediffsChance>0.03</techHediffsChance>
         <techHediffsMoney>50~250</techHediffsMoney>
         <techHediffsTags>
