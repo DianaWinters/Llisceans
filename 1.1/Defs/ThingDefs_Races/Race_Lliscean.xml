@@ -7,7 +7,7 @@
     <description>Created due to a fad popular with the female population on a distant glitterworld, the Lliscean is a race of half-human half-deer people. Friendly and nature loving, those that get stranded on rimworlds generally settle into idyllic (at least for a time) tribal societies. The race is almost entirely female, with few very feminine males. They typically aren't too picky about the gender of their partner, caring more about the content of their character.</description>
     <alienRace>
       <generalSettings>
-        <maleGenderProbability>0.1</maleGenderProbability>
+        <maleGenderProbability>0.2</maleGenderProbability>
         <immuneToAge>false</immuneToAge>
         <forcedRaceTraitEntries>
           <li>
@@ -44,6 +44,7 @@
             <li>Narrow_Pointy</li>
           </aliencrowntypes>
           <alienbodytypes>
+		  	<li>Thin</li>
             <li>Female</li>
           </alienbodytypes>
           <alienskincolorgen Class="AlienRace.ColorGenerator_SkinColorMelanin">
@@ -120,16 +121,19 @@
                 <south>
                   <bodyTypes>
                     <Female>(-0.4115,0.0900)</Female>
+					<Thin>(-0.4115,0.0900)</Thin>
                   </bodyTypes>
                 </south>
                 <north>
                   <bodyTypes>
                     <Female>(-0.013,0.2245)</Female>
+					<Thin>(-0.013,0.2245)</Thin>
                   </bodyTypes>
                 </north>
                 <east>
                   <bodyTypes>
                     <Female>(-0.0959,-0.0449)</Female>
+					<Thin>(-0.0959,-0.0449)</Thin>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -146,16 +150,19 @@
                 <south>
                   <bodyTypes>
                     <Female>(-0.4115,0.0900)</Female>
+					<Thin>(-0.4115,0.0900)</Thin>
                   </bodyTypes>
                 </south>
                 <north>
                   <bodyTypes>
                     <Female>(-0.013,0.2245)</Female>
+					<Thin>(-0.013,0.2245)</Thin>
                   </bodyTypes>
                 </north>
                 <east>
                   <bodyTypes>
                     <Female>(-0.0959,-0.0449)</Female>
+					<Thin>(-0.0959,-0.0449)</Thin>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -172,16 +179,19 @@
                 <south>
                   <bodyTypes>
                     <Female>(0,0)</Female>
+					<Thin>(0,0)</Thin>
                   </bodyTypes>
                 </south>
                 <north>
                   <bodyTypes>
                     <Female>(0,-0.5407)</Female>
+					<Thin>(0,-0.5407)</Thin>
                   </bodyTypes>
                 </north>
                 <east>
                   <bodyTypes>
                     <Female>(0.9107,-0.3313)</Female>
+					<Thin>(0.9107,-0.3313)</Thin>
                   </bodyTypes>
                 </east>
               </offsets>
