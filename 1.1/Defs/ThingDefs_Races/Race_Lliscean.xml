@@ -20,13 +20,13 @@
 			<chance>25</chance>
 		  </li>
 		  <li>
-			<defName>Gay<defName>
-			<chance>20</chance>
-		  <li>		  
+			<defName>Gay</defName>
+			<chance>15</chance>
+		  </li>
 		  <li>
-			<defName>Bisexual<defName>
-			<chance>60</chance>
-		  <li>
+			<defName>Bisexual</defName>
+			<chance>70</chance>
+		  </li>
         </forcedRaceTraitEntries>
         <disallowedTraits>
           <li>Ugly</li>
