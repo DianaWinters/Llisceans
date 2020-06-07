@@ -115,7 +115,7 @@
               <bodyPart>Waist</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <useSkinColor>false</useSkinColor>
-              <layerOffset>-0.270</layerOffset>
+              <layerOffset>-0.3</layerOffset>
               <offsets>
                 <south>
                   <bodyTypes>
@@ -195,7 +195,7 @@
 
       <graphicPaths>
         <li>
-          <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Female</skeleton>
+          <skeleton>Things/Pawn/Animal/Deer/Dessicated_DeerFemale</skeleton>
         </li>
       </graphicPaths>
 
