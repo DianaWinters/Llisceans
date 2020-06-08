@@ -15,6 +15,7 @@
         <li>
           <kindDefs>
             <li>Lliscean_Settler</li>
+			<li>LlisceanTribemember</li>
           </kindDefs>
           <chance>20.0</chance>
         </li>
@@ -39,6 +40,7 @@
           <pawnKindEntries>
             <li>
               <kindDefs>
+			    <li>LlisceanTribemember</li>
                 <li>Lliscean_Settler</li>
                 <li>Lliscean_Colonist</li>
                 <li>Lliscean_Soldier</li>
