@@ -8,7 +8,7 @@
 	</supportedVersions>
 	<packageId>dianawinters.Llisceans</packageId>
   <url>https://github.com/DianaWinters/Llisceans</url>
-<description>Now for 1.1!</description>
+<description>Hailing from a distant glitterworld where genetic modification allowed their creation, those that get stranded on rimworlds often settle into idyllic (for a time at least) tribal societies. They are renown for their skill with plants and animals... and maybe more...</description>
 <modDependencies>
    <li>
       <packageId>erdelf.HumanoidAlienRaces</packageId>
