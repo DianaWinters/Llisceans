@@ -3,15 +3,14 @@
   <AlienRace.RaceSettings>
     <defName>Lliscean_Racesetting</defName>
     <pawnKindSettings>
-      <alienslavekinds>
+    <alienslavekinds>
         <li>
-          <kindDefs>
-            <li>Lliscean_Settler</li>
-            <li>Lliscean_Colonist</li>
-          </kindDefs>
-          <chance>30.0</chance>
+            <kindDefs>
+                <li>LlisceanSlave</li>
+            </kindDefs>
+            <chance>15.0</chance>
         </li>
-      </alienslavekinds>
+    </alienslavekinds>
       <alienrefugeekinds>
         <li>
           <kindDefs>
@@ -22,14 +21,14 @@
       </alienrefugeekinds>
       <startingColonists>
         <li>
-          <pawnKindEntries>
-            <li>
-              <kindDefs>
-                <li>Lliscean_Settler</li>
-              </kindDefs>
-              <chance>15.0</chance>
-            </li>
-          </pawnKindEntries>
+            <pawnKindEntries>
+                <li>
+                    <kindDefs>
+                        <li>LlisceanTribemember</li>
+                    </kindDefs>
+                    <chance>10.0</chance>
+                </li>
+            </pawnKindEntries>
           <factionDefs>
             <li>LlisceanPlayerColony</li>
           </factionDefs>

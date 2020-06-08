@@ -12,6 +12,23 @@
       <li>Neolithic</li>
     </apparelTags>
   </PawnKindDef>
+  
+    <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>LlisceanSlave</defName>
+    <label>slave</label>
+    <race Inherit="false">Lliscean</race>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <apparelTags>
+      <li>Neolithic</li>
+    </apparelTags>
+    <apparelMoney>200~200</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.01</techHediffsChance>
+  </PawnKindDef>
 
   <!-- Poverty tier - penitent -->
 
