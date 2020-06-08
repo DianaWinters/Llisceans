@@ -204,7 +204,7 @@
               <bodyPart>Tail</bodyPart>
               <inFrontOfBody>false</inFrontOfBody>
               <useSkinColor>true</useSkinColor>
-              <layerOffset>-0.3</layerOffset>
+              <layerOffset>-0.288</layerOffset>
               <offsets>
                 <south>
                   <bodyTypes>
