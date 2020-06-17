@@ -477,9 +477,28 @@
 							<coverage>0.07</coverage><!-- 7 % -->
 							<height>Bottom</height>
 							<groups>
+								<li>Legs</li>
 								<li>FrontLeftLeg</li>
 							</groups>
 							<parts>
+								<li>
+									<def>Femur</def>
+									<customLabel>front left femur</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Legs</li>
+									</groups>
+								</li>
+								<li>
+									<def>Tibia</def>
+									<customLabel>front left tibia</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Legs</li>
+									</groups>
+								</li>
 								<li>
 									<def>Hoof</def>
 									<customLabel>front left hoof</customLabel>
@@ -493,9 +512,28 @@
 							<coverage>0.07</coverage><!-- 7 % -->
 							<height>Bottom</height>
 							<groups>
+								<li>Legs</li>
 								<li>FrontRightLeg</li>
 							</groups>
 							<parts>
+								<li>
+									<def>Femur</def>
+									<customLabel>front right femur</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Legs</li>
+									</groups>
+								</li>
+								<li>
+									<def>Tibia</def>
+									<customLabel>front right tibia</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Legs</li>
+									</groups>
+								</li>
 								<li>
 									<def>Hoof</def>
 									<customLabel>front right hoof</customLabel>
@@ -508,7 +546,28 @@
 							<customLabel>rear left leg</customLabel>
 							<coverage>0.07</coverage><!-- 7 % -->
 							<height>Bottom</height>
+							<groups>
+								<li>Legs</li>
+							</groups>
 							<parts>
+								<li>
+									<def>Femur</def>
+									<customLabel>rear left femur</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Legs</li>
+									</groups>
+								</li>
+								<li>
+									<def>Tibia</def>
+									<customLabel>rear left tibia</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Legs</li>
+									</groups>
+								</li>
 								<li>
 									<def>Hoof</def>
 									<customLabel>rear left hoof</customLabel>
@@ -521,7 +580,28 @@
 							<customLabel>rear right leg</customLabel>
 							<coverage>0.07</coverage><!-- 7 % -->
 							<height>Bottom</height>
+							<groups>
+								<li>Legs</li>
+							</groups>
 							<parts>
+								<li>
+									<def>Femur</def>
+									<customLabel>rear right femur</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Legs</li>
+									</groups>
+								</li>
+								<li>
+									<def>Tibia</def>
+									<customLabel>rear right tibia</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Legs</li>
+									</groups>
+								</li>
 								<li>
 									<def>Hoof</def>
 									<customLabel>rear right hoof</customLabel>
