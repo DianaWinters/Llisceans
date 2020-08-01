@@ -29,8 +29,14 @@
 		  </li>
         </forcedRaceTraitEntries>
         <disallowedTraits>
-          <li>Ugly</li>
-          <li>Pyromaniac</li>
+          <li>
+            <defName>Ugly</defName>
+            <chance>100</chance>
+          </li>
+		  <li>
+			<defName>Pyromaniac</defName>
+			<chance>100</chance>
+		  </li>
         </disallowedTraits>
         <maxDamageForSocialfight>8</maxDamageForSocialfight>
         <humanRecipeImport>true</humanRecipeImport>
@@ -47,12 +53,11 @@
 		  	<li>Thin</li>
             <li>Female</li>
           </alienbodytypes>
-          <alienskincolorgen Class="AlienRace.ColorGenerator_SkinColorMelanin">
-            <minMelanin>0</minMelanin>
-            <maxMelanin>1</maxMelanin>
-          </alienskincolorgen>
-
-          <alienskinsecondcolorgen Class="ColorGenerator_Options">
+		  
+			<colorChannels>
+				<li>
+					<name>fur</name>
+                    <first Class="ColorGenerator_Options">
             <options>
               <!-- == Brown == -->
               <li>
@@ -102,7 +107,9 @@
                 <only>RGBA(192,48,109,1,255)</only>
               </li>
             </options>
-          </alienskinsecondcolorgen>
+			</first>
+			</li>
+          </colorChannels>
           <customDrawSize>(0.75, 0.75)</customDrawSize>
           <customHeadDrawSize>(0.75, 0.75)</customHeadDrawSize>
           <customPortraitDrawSize>(0.75, 0.75)</customPortraitDrawSize>
@@ -145,7 +152,7 @@
               <path>Things/Pawn/Lliscean/Body/LlisceanBody</path>
               <bodyPart>Body</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
-              <useSkinColor>true</useSkinColor>
+              <colorChannel>skin</colorChannel>
               <layerOffset>-0.291</layerOffset>
               <offsets>
                 <south>
@@ -174,7 +181,7 @@
               <path>Things/Pawn/Lliscean/Body/LlisceanBody2</path>
               <bodyPart>Body</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
-              <useSkinColor>true</useSkinColor>
+              <colorChannel>fur</colorChannel>
               <layerOffset>-0.31</layerOffset>
               <offsets>
                 <south>
@@ -203,7 +210,7 @@
               <path>Things/Pawn/Lliscean/Body/LlTail</path>
               <bodyPart>Tail</bodyPart>
               <inFrontOfBody>false</inFrontOfBody>
-              <useSkinColor>true</useSkinColor>
+              <colorChannel>fur</colorChannel>
               <layerOffset>-0.288</layerOffset>
               <offsets>
                 <south>
@@ -232,7 +239,7 @@
 							<path>Things/Pawn/Lliscean/Body/Ears/EarLeft</path>
 							<bodyPart>left ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
-							<useSkinColor>true</useSkinColor>
+							<colorChannel>fur</colorChannel>
 							<layerInvert>false</layerInvert>
 							<offsets>
 								<south>
@@ -297,7 +304,7 @@
 							<path>Things/Pawn/Lliscean/Body/Ears/EarRight</path>
 							<bodyPart>right ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
-							<useSkinColor>true</useSkinColor>
+							<colorChannel>fur</colorChannel>
 							<layerInvert>false</layerInvert>
 							<offsets>
 								<south>
