@@ -152,7 +152,7 @@
               <path>Things/Pawn/Lliscean/Body/LlisceanBody</path>
               <bodyPart>Body</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
-              <colorChannel>skin</colorChannel>
+              <colorChannel>fur</colorChannel>
               <layerOffset>-0.291</layerOffset>
               <offsets>
                 <south>
