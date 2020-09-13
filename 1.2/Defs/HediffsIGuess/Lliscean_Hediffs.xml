@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<HediffDef>
+    <defName>DeerButt</defName>
+        <description>Deer people can carry extra weight both while hauling and on caravans.</description>
+        <label>Deer Butt</label>
+        <isBad>false</isBad>
+        <everCurableByItem>false</everCurableByItem>
+        <defaultLabelColor>(.5,.5,.5)</defaultLabelColor>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1.0</maxSeverity>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+                <statOffsets>
+                    <CarryingCapacity>35</CarryingCapacity>
+                </statOffsets>
+            </li>
+        </stages>
+</HediffDef>
+
+<HediffGiverSetDef>
+    <defName>LlisceanStandard</defName>
+    <hediffGivers>
+  
+      <!-- Birthday long-term chronic-->
+
+      <li Class="HediffGiver_Birthday">
+        <hediff>DeerButt</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+</Defs>

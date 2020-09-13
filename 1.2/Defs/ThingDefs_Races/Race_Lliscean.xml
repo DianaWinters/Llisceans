@@ -40,7 +40,6 @@
         </disallowedTraits>
         <maxDamageForSocialfight>8</maxDamageForSocialfight>
         <humanRecipeImport>true</humanRecipeImport>
-
         <alienPartGenerator>
           <aliencrowntypes>
             <li>Average_Normal</li>
