@@ -545,6 +545,7 @@
       </ageGenerationCurve>
       <hediffGiverSets>
         <li>OrganicStandard</li>
+		<li>LlisceanStandard</li>
         <li>Human</li>
       </hediffGiverSets>
     </race>
