@@ -3,19 +3,18 @@
   <AlienRace.RaceSettings>
     <defName>Lliscean_Racesetting</defName>
     <pawnKindSettings>
-    <alienslavekinds>
-        <li>
-            <kindDefs>
-                <li>LlisceanSlave</li>
-            </kindDefs>
-            <chance>15.0</chance>
-        </li>
-    </alienslavekinds>
+      <alienslavekinds>
+          <li>
+              <kindDefs>
+                  <li>LlisceanSlave</li>
+              </kindDefs>
+              <chance>15.0</chance>
+          </li>
+      </alienslavekinds>
       <alienrefugeekinds>
         <li>
           <kindDefs>
-            <li>Lliscean_Settler</li>
-			<li>LlisceanTribemember</li>
+		      	<li>Lliscean_PlayerColonist</li>
           </kindDefs>
           <chance>20.0</chance>
         </li>
@@ -23,15 +22,15 @@
       <startingColonists>
         <li>
             <pawnKindEntries>
-                <li>
-                    <kindDefs>
-                        <li>LlisceanTribemember</li>
-                    </kindDefs>
-                    <chance>10.0</chance>
-                </li>
+              <li>
+                <kindDefs>
+                  <li>Lliscean_PlayerColonist</li>
+                </kindDefs>
+                <chance>10.0</chance>
+              </li>
             </pawnKindEntries>
           <factionDefs>
-            <li>LlisceanPlayerColony</li>
+            <li>LlisceanPlayerTribe</li>
           </factionDefs>
         </li>
       </startingColonists>
@@ -40,16 +39,13 @@
           <pawnKindEntries>
             <li>
               <kindDefs>
-			    <li>LlisceanTribemember</li>
-                <li>Lliscean_Settler</li>
-                <li>Lliscean_Colonist</li>
-                <li>Lliscean_Soldier</li>
+			          <li>Lliscean_PlayerColonist</li>
               </kindDefs>
               <chance>20.0</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
-            <li>LlisceanPlayerColony</li>
+            <li>LlisceanPlayerTribe</li>
           </factionDefs>
         </li>
       </alienwandererkinds>
