@@ -148,6 +148,7 @@
 										<li>FullHead</li>
 										<li>Eyes</li>
 									</groups>
+									<woundAnchorTag>LeftEye</woundAnchorTag>
 								</li>
 								<li>
 									<def>Eye</def>
@@ -157,6 +158,7 @@
 										<li>FullHead</li>
 										<li>Eyes</li>
 									</groups>
+									<woundAnchorTag>RightEye</woundAnchorTag>
 								</li>
 								<li>
 									<def>Ear</def>

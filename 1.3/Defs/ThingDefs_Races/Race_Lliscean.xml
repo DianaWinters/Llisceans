@@ -377,7 +377,176 @@
               </hiddenUnderApparelFor>
             </li>
           </bodyAddons>
-
+<anchorReplacements>
+  <li>
+    <originalTag>LeftEye</originalTag> 
+    <originalGroup>Torso</originalGroup>
+    <replacement> 
+      <rotation>West</rotation>
+      <tag>LeftEye</tag>
+      <canMirror>false</canMirror>
+      <crownType>Average</crownType>
+      <range>0</range>
+      <layer>Head</layer>
+      <debugColor>(1,0,0,1)</debugColor>
+    </replacement>
+    <offsets> 
+      								<south>
+									<bodyTypes>
+										<Female>(0,-0.3)</Female>
+										<Thin>(0,-0.3)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</south>
+								<east>
+									<bodyTypes>
+										<Female>(0.2, 0.185)</Female>
+										<Thin>(0.2, 0.185)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</east>
+								<west>
+									<bodyTypes>
+										<Female>(-0.2, 0.185)</Female>
+										<Thin>(-0.2, 0.185)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</west>
+							</offsets>
+  </li>
+    <li>
+    <originalTag>RightEye</originalTag> 
+    <originalGroup>Torso</originalGroup>
+    <replacement> 
+      <rotation>South</rotation>
+      <tag>RightEye</tag>
+      <canMirror>false</canMirror>
+      <crownType>Average</crownType>
+      <range>0</range>
+      <layer>Head</layer>
+      <debugColor>(0,0,1,1)</debugColor>
+    </replacement>
+    <offsets> 
+      								<south>
+									<bodyTypes>
+										<Female>(-0.075,0.175)</Female>
+										<Thin>(-0.075,0.175)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</south>
+								<east>
+									<bodyTypes>
+										<Female>(0.2, 0.175)</Female>
+										<Thin>(0.2, 0.175)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</east>
+								<west>
+									<bodyTypes>
+										<Female>(-0.2, 0.185)</Female>
+										<Thin>(-0.2, 0.185)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</west>
+							</offsets>
+  </li>
+  <li>
+    <originalTag>LeftEye</originalTag> 
+    <originalGroup>Torso</originalGroup>
+    <replacement> 
+      <rotation>South</rotation>
+      <tag>LeftEye</tag>
+      <canMirror>false</canMirror>
+      <crownType>Average</crownType>
+      <range>0</range>
+      <layer>Head</layer>
+      <debugColor>(1,0,0,1)</debugColor>
+    </replacement>
+    <offsets> 
+      								<south>
+									<bodyTypes>
+										<Female>(0.075,0.175)</Female>
+										<Thin>(0.075,0.175)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</south>
+								<east>
+									<bodyTypes>
+										<Female>(0.2, 0.185)</Female>
+										<Thin>(0.2, 0.185)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</east>
+								<west>
+									<bodyTypes>
+										<Female>(-0.2, 0.185)</Female>
+										<Thin>(-0.2, 0.185)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</west>
+							</offsets>
+  </li>
+    <li>
+    <originalTag>RightEye</originalTag> 
+    <originalGroup>Torso</originalGroup>
+    <replacement> 
+      <rotation>East</rotation>
+      <tag>RightEye</tag>
+      <canMirror>false</canMirror>
+      <crownType>Average</crownType>
+      <range>0</range>
+      <layer>Head</layer>
+      <debugColor>(0,0,1,1)</debugColor>
+    </replacement>
+    <offsets> 
+      								<south>
+									<bodyTypes>
+										<Female>(0,-0.3)</Female>
+										<Thin>(0,-0.3)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</south>
+								<east>
+									<bodyTypes>
+										<Female>(0.2, 0.175)</Female>
+										<Thin>(0.2, 0.175)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</east>
+								<west>
+									<bodyTypes>
+										<Female>(-0.2, 0.185)</Female>
+										<Thin>(-0.2, 0.185)</Thin>
+									</bodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</west>
+							</offsets>
+  </li>
+</anchorReplacements>
         </alienPartGenerator>
 
       </generalSettings>
