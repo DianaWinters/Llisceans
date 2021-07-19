@@ -40,6 +40,7 @@
         <maxDamageForSocialfight>8</maxDamageForSocialfight>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
+		  <borderScale>1.4</borderScale>
           <aliencrowntypes>
             <li>Average_Normal</li>
             <li>Average_Pointy</li>
