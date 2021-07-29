@@ -121,6 +121,7 @@
               <drawSize>1</drawSize>
               <path>Things/Pawn/Lliscean/Body/Patterns/LlisceanBodyPattern</path>
               <bodyPart>Body</bodyPart>
+			  <shaderType>Transparent</shaderType>
               <inFrontOfBody>true</inFrontOfBody>
               <colorChannel>base</colorChannel>
               <layerInvert>false</layerInvert>
@@ -154,6 +155,7 @@
               <drawSize>1</drawSize>
               <path>Things/Pawn/Lliscean/Body/LlisceanBody</path>
               <bodyPart>Body</bodyPart>
+			  <shaderType>Transparent</shaderType>
               <inFrontOfBody>true</inFrontOfBody>
               <colorChannel>fur</colorChannel>
 			  <defaultOffset>Tail</defaultOffset>
@@ -186,6 +188,7 @@
               <drawSize>1</drawSize>
               <path>Things/Pawn/Lliscean/Body/LlisceanBody2</path>
               <bodyPart>Body</bodyPart>
+			  <shaderType>Transparent</shaderType>
               <inFrontOfBody>true</inFrontOfBody>
               <colorChannel>fur</colorChannel>
 			  <defaultOffset>Tail</defaultOffset>
