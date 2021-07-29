@@ -159,21 +159,21 @@
 			  <defaultOffset>Tail</defaultOffset>
               <offsets>
                 <south>
-				<layerOffset>-0.291</layerOffset>
+				<layerOffset>-0.289</layerOffset>
                   <bodyTypes>
                     <Female>(-0.4115,0.0900)</Female>
                     <Thin>(-0.4115,0.0900)</Thin>
                   </bodyTypes>
                 </south>
                 <north>
-				<layerOffset>-0.291</layerOffset>
+				<layerOffset>-0.289</layerOffset>
                   <bodyTypes>
                     <Female>(-0.013,0.2245)</Female>
                     <Thin>(-0.013,0.2245)</Thin>
                   </bodyTypes>
                 </north>
                 <east>
-				<layerOffset>-0.291</layerOffset>
+				<layerOffset>-0.289</layerOffset>
                   <bodyTypes>
                     <Female>(-0.0959,-0.0449)</Female>
                     <Thin>(-0.0959,-0.0449)</Thin>
