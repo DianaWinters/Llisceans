@@ -512,7 +512,7 @@
 									</groups>
 								</li>
 								<li>
-									<def>Hoof</def>
+									<def>Foot</def>
 									<customLabel>front left hoof</customLabel>
 									<coverage>0.15</coverage>
 								</li>
@@ -547,7 +547,7 @@
 									</groups>
 								</li>
 								<li>
-									<def>Hoof</def>
+									<def>Foot</def>
 									<customLabel>front right hoof</customLabel>
 									<coverage>0.15</coverage>
 								</li>
@@ -581,7 +581,7 @@
 									</groups>
 								</li>
 								<li>
-									<def>Hoof</def>
+									<def>Foot</def>
 									<customLabel>rear left hoof</customLabel>
 									<coverage>0.15</coverage>
 								</li>
@@ -615,7 +615,7 @@
 									</groups>
 								</li>
 								<li>
-									<def>Hoof</def>
+									<def>Foot</def>
 									<customLabel>rear right hoof</customLabel>
 									<coverage>0.15</coverage>
 								</li><!--== 59 % ==-->
