@@ -4,6 +4,8 @@
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>Lliscean</defName>
     <label>lliscean</label>
+	<comps>
+	</comps>
     <description>Created due to a fad popular with the female population on a distant glitterworld, the Lliscean is a race of half-human half-deer people. Friendly and nature loving, those that get stranded on rimworlds generally settle into idyllic (at least for a time) tribal societies. The race is almost entirely female, with few very feminine males. They typically aren't too picky about the gender of their partner, caring more about the content of their character.</description>
     <alienRace>
       <generalSettings>
